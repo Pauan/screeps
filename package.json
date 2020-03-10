@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "screeps",
+  "author": "Pauan <pauanyu+github@pm.me>",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "rimraf pkg && wasm-pack --log-level error build --target nodejs && node build.js"
+  },
+  "devDependencies": {
+    "wasm-pack": "^0.9.1",
+    "rimraf": "^3.0.2"
+  }
+}
